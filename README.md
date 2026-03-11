@@ -27,7 +27,7 @@ The interface is designed to translate the complex financial and operational dat
 
 ## Technical Stack
 
-- **Framework**: [Nuxt 3](https://nuxt.com/) (Vue 3)
+- **Framework**: [Nuxt 4](https://nuxt.com/) (Vue 3)
 - **UI Components**: [Nuxt UI](https://ui.nuxt.com/)
 - **Styling**: Tailwind CSS
 - **Iconography**: Lucide Icons
