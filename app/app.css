@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --font-sans: "Open Sans", system-ui, sans-serif;
+
+  /* Azure DNA Palette */
+  --color-azure-50: #f0f9ff;
+  --color-azure-100: #e0f2fe;
+  --color-azure-200: #bae6fd;
+  --color-azure-300: #7dd3fc;
+  --color-azure-400: #38bdf8;
+  --color-azure-500: #3b82f6;
+  --color-azure-600: #2563eb;
+  --color-azure-700: #1d4ed8;
+  --color-azure-800: #1e40af;
+  --color-azure-900: #1e3a8a;
+  --color-azure-950: #172554;
+
+  /* Secondary/Success Palette (Emerald) */
+  --color-emerald-50: #ecfdf5;
+  --color-emerald-500: #10b981;
+  --color-emerald-600: #059669;
+
+  --color-deep-navy: #020617;
+  --color-azure-tint: #F0F7FF;
+
+  /* Elevation & Surface */
+  --shadow-neumorphic-light: 6px 6px 12px #d1d9e6, -6px -6px 12px #ffffff;
+  --shadow-azure-glow: 0 0 25px rgba(30, 58, 138, 0.2);
+
+  /* Radius */
+  --radius-container: 32px;
+  --radius-element: 0.75rem;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+}
+
+body {
+  @apply antialiased bg-white dark:bg-deep-navy;
+}
