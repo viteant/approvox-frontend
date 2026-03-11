@@ -1,6 +1,7 @@
 # Approvox - Administrative Dashboard (Frontend)
 
-> **Status: Under Development**
+> [!IMPORTANT]
+> This project is currently **Under Development**. Features and documentation are subject to change.
 > This repository contains the frontend application for the Approvox ecosystem. It is an administrative suite built for high-performance agency management.
 
 ## Project Overview
